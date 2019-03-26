@@ -4,7 +4,9 @@ import { Link } from "react-router-dom"
 
 const Navbar = props => (
     // Depending on the current path, this component sets the "active" class on the appropriate navigation link item
-    <nav className="navbar navbar-expand-lg navbar-light bg-light">
+    // <nav className="navbar navbar-expand-lg navbar-light bg-light">
+    <nav className="navbar navbar-expand-lg">
+
         <div>
             <ul className="navbar-nav">
                 <li
@@ -25,7 +27,7 @@ const Navbar = props => (
                     : "nav-item"
                 }>
                     <Link className="nav-link" to="/teaching">
-                        Teaching
+                        The Teachings
                     </Link>
                 </li>
                 <li

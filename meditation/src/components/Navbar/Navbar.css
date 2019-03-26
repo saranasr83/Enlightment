@@ -1,0 +1,22 @@
+nav.navbar.navbar-default {
+    margin-bottom: 0;  
+}
+
+.navbar {
+    background-color: black;
+}
+
+.nav-link {
+    color: white;
+}
+
+.nav-link:hover { 
+    color: rgb(60, 165, 250); 
+}
+  
+.active>.nav-link {
+    color: rgb(60, 165, 250);
+}
+
+
+

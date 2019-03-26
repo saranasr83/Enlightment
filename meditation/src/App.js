@@ -4,11 +4,11 @@ import React from 'react';
 import Wrapper from "./components/Wrapper";
 // import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
-import Home from "./pages/home";
-import About from "./pages/about";
-import Teaching from "./pages/teaching";
-import Meditation from "./pages/meditation";
-import PastEvents from "./pages/pastevents";
+import Home from "./pages/Home/Home";
+import About from "./pages/About/About";
+import Teaching from "./pages/Teaching/Teaching";
+import Meditation from "./pages/Meditation/Meditation";
+import PastEvents from "./pages/Pastevents/Pastevents";
 
 
 
@@ -16,6 +16,8 @@ const App = () => (
    <Router>
     <div>
       <Navbar />
+      <hr style={{border: "1px solid white", marginTop:"1px"}} />
+      <br/>
       <Wrapper>
         <Route exact path="/" component={Home} />
         <Route exact path="/teaching" component={Teaching} />
