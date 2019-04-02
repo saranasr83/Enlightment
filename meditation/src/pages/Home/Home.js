@@ -1,13 +1,13 @@
 import React from "react";
-import "./Home.css"
+import "./Home.css";
 import Container from "../../components/Container";
-import Col from "../../components/Col"
-import Row from "../../components/Row"
+import Col from "../../components/Col";
+import Row from "../../components/Row";
 // import Leaf from "../../images/leaf.jpg"
-import Waterring from "../../images/waterring.jpg"
-import Stone from "../../images/Stone.jpg"
+import Waterring from "../../images/waterring.jpg";
+import Stone from "../../images/Stone.jpg";
 
-import UCB from "../../images/UCB.png"
+import UCB from "../../images/UCB.png";
 // import Flower from "../../images/Flower.jpg"
 import SF from "../../images/SF.png"
 

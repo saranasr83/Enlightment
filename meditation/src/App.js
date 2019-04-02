@@ -2,7 +2,6 @@ import React from 'react';
 // import './App.css';
  import { BrowserRouter as Router, Route } from "react-router-dom";
 import Wrapper from "./components/Wrapper";
-// import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 import Home from "./pages/Home/Home";
 import About from "./pages/About/About";
@@ -25,7 +24,6 @@ const App = () => (
         <Route exact path="/meditation" component={Meditation} />
         <Route exact path="/pastevents" component={PastEvents} />
       </Wrapper>
-      {/* <Footer /> */}
     </div>
    </Router>
 );
