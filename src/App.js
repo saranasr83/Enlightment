@@ -14,9 +14,7 @@ import PastEvents from "./pages/Pastevents/Pastevents";
 const App = () => (
    <Router>
     <div>
-      <p>
-        Edit <code>src/app.js</code> and save to reload part2 
-      </p>
+      
       <Navbar />
       <hr style={{border: "1px solid white", marginTop:"1px"}} />
       <br/>
