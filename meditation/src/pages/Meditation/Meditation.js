@@ -7,7 +7,7 @@ import Fuji from "../../images/fuji.jpg"
 const Meditation = () => (
     <div>
         <Container style={{ color: "white" }}>
-            <h1 className="text-center">Why Meditation?</h1>
+            <h1 className="text-center" style={{fontFamily:"serif"}}>Why Meditation?</h1>
 
             <br />
             <Row>

@@ -17,7 +17,7 @@ import Nature from "../../images/Nature.png";
 const PastEvents = () => (
     <div>
         <Container style={{ color: "white" }}>
-            <h1 className="text-center">Past Events</h1>
+            <h1 className="text-center" style={{fontFamily:"serif"}}>Past Events</h1>
             <br />
                 <Row>
                     <Col size="md-3" />
@@ -33,7 +33,9 @@ const PastEvents = () => (
                     </Col>
                 </Row>
                 <Row>
+                    {/* <Col size="md-2" /> */}
                     <Col size="md-3" />
+
                     <Col size="md-3">
                         <div className="hor-image img">
                             <img className="img-fluid" alt="door" src={Door} />
@@ -46,7 +48,9 @@ const PastEvents = () => (
                     </Col>
                 </Row>
                 <Row>
+                    {/* <Col size="md-4" /> */}
                     <Col size="md-3" />
+
                     <Col size="md-3">
                         <div className="ver-image img">
                             <img className="img-fluid" alt="sword" src={Sharpensword} />

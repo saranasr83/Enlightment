@@ -1,11 +1,17 @@
-.img {
-    transition: .5s ease;
-    backface-visibility: hidden;
+.img-home {
+    /* transition: .5s ease;
+    backface-visibility: hidden; */
     height:400px ;
     display: block;
     opacity:1;
+    /* border: 1px solid rgb(84, 174, 248); */
+    border-radius: 25px;
+    /* box-shadow:  5px 10px rgb(151, 204, 248) */
+    box-shadow: 8px 8px 6px 1px rgb(65, 64, 64);
 }
-
+h3 {
+    text-shadow: 1px 2px 2px rgb(60, 165, 250);
+}
 .overlay {
     transition: .5s ease;
     opacity: 0;
@@ -16,15 +22,20 @@
     -ms-transform: translate(-50%, -50%);
     text-align: center;
 }
-.image:hover .img{
+.image:hover .img-home{
     opacity: 0.3;
+    transform: scale(1.1); 
+}
+.image:hover h3{
+    opacity: 0;
 
 }
 .image:hover .overlay {
     opacity:1;
 }
-
 .logo {
-    width: 400px;
+    width: 150px;
     height: 150px;
+    margin-top: 170px;
+    margin-right:120px;
   }

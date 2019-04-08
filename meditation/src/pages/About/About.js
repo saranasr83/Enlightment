@@ -9,7 +9,7 @@ const About = () => (
     <div>
         <Container style={{ color: "white" }}>
 
-            <h1 className="text-center">Chitananda</h1>
+            <h1 className="text-center" style={{fontFamily:"serif"}}>Chitananda</h1>
             <br/>
             <Row>
                 <Col size="md-6">

@@ -7,7 +7,7 @@ import Cherry from "../../images/cherryBlossom.png"
 const Teaching = () => (
     <div>
         <Container style={{color:"white"}}>
-            <h1 className="text-center"> What we're about</h1>
+            <h1 className="text-center" style={{fontFamily:"serif"}}> What we're about</h1>
             <br />
             <Row>
                 <Col size="md-6">

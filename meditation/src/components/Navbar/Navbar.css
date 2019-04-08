@@ -1,19 +1,22 @@
 nav.navbar.navbar-default {
-    margin-bottom: 0;  
+    margin-bottom: 0; 
 }
-
 .navbar {
     background-color: black;
 }
-
+.navbar-nav .nav-link {
+    font-family: serif;
+}    
+.home{
+    margin-left:300px; 
+}
 .nav-link {
     color: white;
+    font-size: 20px;
 }
-
 .nav-link:hover { 
     color: rgb(60, 165, 250); 
-}
-  
+}  
 .active>.nav-link {
     color: rgb(60, 165, 250);
 }

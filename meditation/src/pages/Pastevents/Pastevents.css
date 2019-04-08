@@ -8,11 +8,9 @@
     height: 300px;
 }
 .img {
-    padding: 50px;
+    padding: 35px;
     transition: transform .2s; /* Animation */
 }
 .img:hover {
     transform: scale(1.5); 
-    /* width: 400px;
-    height: 400px; */
 }
