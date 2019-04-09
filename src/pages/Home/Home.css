@@ -1,12 +1,11 @@
 .img-home {
     /* transition: .5s ease;
     backface-visibility: hidden; */
-    height:400px ;
+    /* height:400px ; */
     display: block;
     opacity:1;
     /* border: 1px solid rgb(84, 174, 248); */
     border-radius: 25px;
-    /* box-shadow:  5px 10px rgb(151, 204, 248) */
     box-shadow: 8px 8px 6px 1px rgb(65, 64, 64);
 }
 h3 {

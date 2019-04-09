@@ -2,6 +2,7 @@ import React from "react";
 import "./Navbar.css";
 import { Link } from "react-router-dom"
 
+
 const Navbar = props => (
     // Depending on the current path, this component sets the "active" class on the appropriate navigation link item
     // <nav className="navbar navbar-expand-lg navbar-light bg-light">
@@ -15,7 +16,7 @@ const Navbar = props => (
                     ? "nav-item active"
                     : "nav-item"
                 }>
-                    <Link className="nav-link home" to="/">
+                    <Link className="nav-link" to="/">
                         Home
                     </Link>
                 </li>
@@ -64,7 +65,6 @@ const Navbar = props => (
         </div>
 
     </nav>
-
 
 )
 
