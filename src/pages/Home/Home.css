@@ -1,7 +1,6 @@
 .img-home {
     /* transition: .5s ease;
     backface-visibility: hidden; */
-    height:350px ;
     display: block;
     opacity:1;
     /* border: 1px solid rgb(84, 174, 248); */
@@ -21,16 +20,25 @@
     -ms-transform: translate(-50%, -50%);
     text-align: center;
 }
-.image:hover .img-home{
-    opacity: 0.3;
-    transform: scale(1.1); 
-}
-.image:hover h3{
-    opacity: 0;
 
+@media (min-width: 800px){
+    .img-home {
+        height:350px;
+    }
 }
-.image:hover .overlay {
-    opacity:1;
+
+/* the condition we have (media) if we detect the device has the hover, if the condition met do everything inside */
+@media (hover: hover) {
+    .image:hover .img-home {
+        opacity: 0.3;
+        transform: scale(1.1); 
+    }
+    .image:hover h3{
+        opacity: 0;
+    }
+    .image:hover .overlay {
+        opacity:1;
+    }
 }
 .logo {
     width: 150px;
@@ -38,3 +46,17 @@
     margin-top: 170px;
     margin-right:120px;
   }
+/* .image:hover .img-home{
+    opacity: 0.3;
+    transform: scale(1.1); 
+} */
+
+/* .image:hover h3{
+    opacity: 0;
+}
+
+.image:hover .overlay {
+    opacity:1;
+} */
+
+

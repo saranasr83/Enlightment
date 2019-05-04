@@ -8,13 +8,6 @@ import UCB from "../../images/UCB.jpeg";
 import Berkeley_seal from "../../images/Berkeley_seal.png";
 import SF_seal from "../../images/SF_seal.png"
 
-// import SF from "../../images/SF.png"
-// import UCBLogo from "../../images/UCBLogo.png";
-// import Leaf from "../../images/leaf.jpg"
-// import Waterring from "../../images/waterring.jpg";
-// import Stone from "../../images/Stone.jpg";
-// import Flower from "../../images/Flower.jpg"
-
 
 const Home = () => (
     <div>
