@@ -19,5 +19,12 @@ nav.navbar.navbar-default {
     color: rgb(60, 165, 250);
 }
 
+@media (min-width: 800px){
+    .topnav a:not(:first-child) {display: none;}
+    .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
 
 

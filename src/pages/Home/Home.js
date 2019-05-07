@@ -19,7 +19,7 @@ const Home = () => (
             <Row>
                 <Col size="md-6">
                     <div className="image">
-                        <h3 className="text-center header" style={{ color: "rgb(60, 165, 250)", fontFamily: "serif" }}> UC Berkeley </h3>
+                        <h3 className="text-center" style={{ color: "rgb(60, 165, 250)", fontFamily: "serif" }}> UC Berkeley </h3>
                         <a href="https://www.meetup.com/Free-Meditation-Class-at-Cal/events/" target="blank">
                             <img className="img-fluid img-home" src={UCB} alt="UC Berkeley campaus" />
                             {/* <div className="overlay">
@@ -30,7 +30,7 @@ const Home = () => (
                 </Col>
                 <Col size="md-6">
                     <div className="image">
-                        <h3 className="text-center header" style={{ color: "rgb(60, 165, 250)", fontFamily: "serif" }}>San Francisco </h3>
+                        <h3 className="text-center" style={{ color: "rgb(60, 165, 250)", fontFamily: "serif" }}>San Francisco </h3>
                         <a href="https://www.meetup.com/Free-Meditation-Class-for-Professionals-Downtown-SF/events/" target="blank">
                             <img className="img-fluid img-home" src={MeditationCity} alt="woman's meditating in the city" />
                             {/* <div className="overlay">

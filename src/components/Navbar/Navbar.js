@@ -6,7 +6,7 @@ import { Link } from "react-router-dom"
 const Navbar = props => (
     // Depending on the current path, this component sets the "active" class on the appropriate navigation link item
     // <nav className="navbar navbar-expand-lg navbar-light bg-light">
-    <nav className="navbar navbar-expand-lg">
+    <nav className="navbar navbar-expand-lg topnav">
         <div>
             <ul className="navbar-nav">
                 <li
