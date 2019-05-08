@@ -19,7 +19,7 @@ nav.navbar.navbar-default {
     color: rgb(60, 165, 250);
 }
 
-@media (min-width: 800px){
+/* @media (max-width: 600px){
     .topnav {
         overflow: hidden;
         background-color: #333;
@@ -38,6 +38,6 @@ nav.navbar.navbar-default {
       
       
       
-}
+} */
 
 
