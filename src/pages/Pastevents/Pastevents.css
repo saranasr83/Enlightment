@@ -1,5 +1,4 @@
 .hor-image {
-    margin-top: 70px;
     width: 300px;
     height: 150px;
 }
@@ -9,8 +8,20 @@
 }
 .img {
     padding: 35px;
+    margin-bottom: 40px;
     transition: transform .2s; /* Animation */
 }
-.img:hover {
+/* .img:hover {
     transform: scale(1.5); 
+} */
+@media (hover: hover) {
+    .img:hover {
+        transform: scale(1.5); 
+    }
+}
+
+@media (min-width: 800px){    
+    .hor-image {
+        margin-top: 70px;
+    }   
 }

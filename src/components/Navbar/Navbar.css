@@ -20,11 +20,24 @@ nav.navbar.navbar-default {
 }
 
 @media (min-width: 800px){
-    .topnav a:not(:first-child) {display: none;}
-    .topnav a.icon {
-    float: right;
-    display: block;
-  }
+    .topnav {
+        overflow: hidden;
+        background-color: #333;
+        position: relative;
+      }
+      .topnav .nav-item {
+        display: none;
+      }
+      .topnav .nav-link {
+        float: left;
+        color: white;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+      }
+      
+      
+      
 }
 
 
