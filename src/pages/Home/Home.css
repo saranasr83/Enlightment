@@ -1,7 +1,5 @@
-.img-home {
-    
+.img-home {   
     display: block;
-    opacity:1;
     border-radius: 25px;
     margin-bottom: 50px;
     /* border: 1px solid rgb(84, 174, 248); */
@@ -10,6 +8,8 @@
 /* h3 {
     text-shadow: 1px 2px 2px rgb(60, 165, 250);
 } */
+
+/* if you want to add the logo in future use the overlay class */
 /* .overlay {
     transition: .5s ease;
     opacity: 0;
@@ -20,6 +20,17 @@
     -ms-transform: translate(-50%, -50%);
     text-align: center;
 } */
+.img-txt {
+    transition: opacity .2s, visibility .2s;
+    font-weight: bolder;
+    font-size:40px;
+    color: white;
+    opacity: 0;
+    position: absolute;
+    top: 30%;
+    left:5%;
+    visibility: hidden;
+}
 
 @media (min-width: 800px){
     .img-home {
@@ -27,24 +38,25 @@
     }
 }
 
-/* @media (min-width: 800px){
-    h3 {
-        margin-top:100px;
-    }
-} */
-
-/* the condition we have (media) if we detect the device has the hover, if the condition met do everything inside */
+/* the condition we have inside the (media) if we detect the device has the hover, if the condition met do everything inside the media*/
 @media (hover: hover) {
-    .image:hover .img-home {
+    .image-brk:hover .img-home {
         opacity: 0.3;
-        transform: scale(1.1); 
+        transform: scale(1.03); 
+        transition: all .5s; 
     }
-    .image:hover h3{
+    /* .image-brk:hover h3{
         opacity: 0;
-    }
-    /* .image:hover .overlay {
-        opacity:1;
     } */
+    .image-brk:hover .img-txt {
+        opacity:1;
+        visibility: visible;
+
+    }
+    .image-sf:hover {
+        transform: scale(1.03); 
+        transition: all .5s;
+    }
 }
 /* .logo {
     width: 150px;

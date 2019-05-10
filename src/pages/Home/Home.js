@@ -18,10 +18,12 @@ const Home = () => (
             <br />
             <Row>
                 <Col size="md-6">
-                    <div className="image">
+                    <div className="image-brk">
                         <h3 className="text-center" style={{ color: "rgb(60, 165, 250)", fontFamily: "serif" }}> UC Berkeley </h3>
                         <a href="https://www.meetup.com/Free-Meditation-Class-at-Cal/events/" target="blank">
                             <img className="img-fluid img-home" src={UCB} alt="UC Berkeley campaus" />
+                            <p className="img-txt">Coming again in Fall, 2019</p>
+
                             {/* <div className="overlay">
                                 <img className="logo" src={Berkeley_seal} />
                             </div> */}
@@ -29,7 +31,7 @@ const Home = () => (
                     </div>
                 </Col>
                 <Col size="md-6">
-                    <div className="image">
+                    <div className="image-sf">
                         <h3 className="text-center" style={{ color: "rgb(60, 165, 250)", fontFamily: "serif" }}>San Francisco </h3>
                         <a href="https://www.meetup.com/Free-Meditation-Class-for-Professionals-Downtown-SF/events/" target="blank">
                             <img className="img-fluid img-home" src={MeditationCity} alt="woman's meditating in the city" />
