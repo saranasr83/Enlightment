@@ -7,7 +7,7 @@ import Mount from "../../images/mt_tam_real.jpg"
 
 const About = () => (
     <div>
-        <Container style={{ color: "white",fontFamily:"serif" }}>
+        <Container style={{ color: "white",fontFamily:"palatino", fontSize:"20px" }}>
 
             
             <br/>

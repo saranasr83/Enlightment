@@ -10,7 +10,7 @@ const Teaching = () => (
         <Container style={{color:"white",fontFamily:"palatino"}}>
             <h1 className="text-center"> About The Class</h1>
             <br />
-            <Row>
+            <Row style={{fontSize:"20px"}}>
                 <Col size="md-6">
                 <h3 >All are welcome</h3>
                     <p>
@@ -30,7 +30,7 @@ const Teaching = () => (
                         <li>You want to relish in life in all of its FULLNESS, unobscured by heavy thinking mind</li>
                         <li>You truly want to give to others... Being bright and balanced, especially in the most difficult situations, puts you in a unique position to be of service to others.</li>
                     </ul>
-                <h3>Why are these class free?</h3>
+                <h3>Why are these classes free?</h3>
                     <p>From Chitananda: Eternity "pays" me well to teach. I feel deep in my heart that I'm receiving something far greater than any material thing when I share the teachings with others. Come, try, meditate and laugh with me :P</p>
 
                 </Col>
