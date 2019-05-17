@@ -7,7 +7,9 @@ const Navbar = props => (
     // Depending on the current path, this component sets the "active" class on the appropriate navigation link item
     // <nav className="navbar navbar-expand-lg navbar-light bg-light">
     <nav className="navbar navbar-expand-lg topnav">
+        {/* <div><i className="fa fa-bars"></i> */}
         <div>
+
             <ul className="navbar-nav">
                 <li
                 className={
@@ -27,9 +29,9 @@ const Navbar = props => (
                     : "nav-item"
                 }>
                     <Link className="nav-link" to="/teaching">
-                        The Teachings
+                        About the Class
                     </Link>
-                </li>
+                </li>    
                 <li
                 className={
                     window.location.pathname === "/about"
@@ -40,7 +42,7 @@ const Navbar = props => (
                         About the Teacher
                     </Link>
                 </li>
-                <li
+                {/* <li
                 className={
                     window.location.pathname === "/meditation"
                     ? "nav-item active"
@@ -49,7 +51,8 @@ const Navbar = props => (
                     <Link className="nav-link" to="/meditation">
                         Why Meditation
                     </Link>
-                </li>
+                </li> */}
+                 
                 <li
                 className={
                     window.location.pathname === "/pastevents"

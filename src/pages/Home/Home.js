@@ -12,14 +12,14 @@ import UCB from "../../images/UCB.jpeg";
 
 const Home = () => (
     <div>
-        <Container style={{ color: "white" }}>
-            <h1 className="text-center" style={{ fontFamily: "serif" }}> Free Meditations</h1>
-            <h2 className="text-center" style={{ fontFamily: "serif" }}>2 Locations <span><i className="fas fa-globe" style={{fontSize:"23px"}}></i></span> All Welcome</h2>
+        <Container style={{ color: "white", fontFamily: "palatino" }}>
+            <h1 className="text-center" > Free Meditations</h1>
+            <h2 className="text-center" >2 Locations <span><i className="fas fa-globe" style={{fontSize:"23px"}}></i></span> All Welcome</h2>
             <br />
             <Row>
                 <Col size="md-6">
                     <div className="image-brk">
-                        <h3 className="text-center" style={{ color: "rgb(60, 165, 250)", fontFamily: "serif" }}> UC Berkeley </h3>
+                        <h3 className="text-center" style={{ color: "rgb(60, 165, 250)"}}> UC Berkeley </h3>
                         <a href="https://www.meetup.com/Free-Meditation-Class-at-Cal/events/" target="blank">
                             <img className="img-fluid img-home" src={UCB} alt="UC Berkeley campaus" />
                             <p className="img-txt">Coming again in Fall, 2019</p>
@@ -32,7 +32,7 @@ const Home = () => (
                 </Col>
                 <Col size="md-6">
                     <div className="image-sf">
-                        <h3 className="text-center" style={{ color: "rgb(60, 165, 250)", fontFamily: "serif" }}>San Francisco </h3>
+                        <h3 className="text-center" style={{ color: "rgb(60, 165, 250)"}}>San Francisco </h3>
                         <a href="https://www.meetup.com/Free-Meditation-Class-for-Professionals-Downtown-SF/events/" target="blank">
                             <img className="img-fluid img-home" src={MeditationCity} alt="woman's meditating in the city" />
                             {/* <div className="overlay">

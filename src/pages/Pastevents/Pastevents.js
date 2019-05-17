@@ -17,18 +17,18 @@ import Nature from "../../images/Nature.png";
 const PastEvents = () => (
     <div>
         <Container style={{ color: "white" }}>
-            <h1 className="text-center" style={{fontFamily:"serif"}}>Past Events</h1>
+            <h1 className="text-center" style={{fontFamily: "palatino"}}>Past Events</h1>
             <br />
                 <Row>
                     <Col size="md-3" />
                     <Col size="md-3">
                         <div className="ver-image img">
-                            <img className="img-fluid" alt="levitation" src={Levitation} />
+                            <img className="img-fluid responsive" alt="levitation" src={Levitation} />
                         </div>
                     </Col>
                     <Col size="md-3">
                         <div className="hor-image img">
-                            <img className="img-fluid" alt="himalaya" src={Himalayas} />
+                            <img className="img-fluid responsive" alt="himalaya" src={Himalayas} />
                         </div>
                     </Col>
                 </Row>
@@ -38,12 +38,12 @@ const PastEvents = () => (
 
                     <Col size="md-3">
                         <div className="hor-image img">
-                            <img className="img-fluid" alt="door" src={Door} />
+                            <img className="img-fluid responsive" alt="door" src={Door} />
                         </div>
                     </Col>
                     <Col size="md-3">
                         <div className="ver-image img">
-                            <img className="img-fluid" alt="clear-water" src={ClearWater} />
+                            <img className="img-fluid responsive" alt="clear-water" src={ClearWater} />
                         </div>
                     </Col>
                 </Row>
@@ -53,13 +53,13 @@ const PastEvents = () => (
 
                     <Col size="md-3">
                         <div className="ver-image img">
-                            <img className="img-fluid" alt="sword" src={Sharpensword} />
+                            <img className="img-fluid responsive" alt="sword" src={Sharpensword} />
                         </div>
 
                     </Col>
                     <Col size="md-3">
                         <div className="hor-image img">
-                            <img className="img-fluid" alt="nature" src={Nature} />
+                            <img className="img-fluid responsive" alt="nature" src={Nature} />
                         </div>
                     </Col>
                 </Row>

@@ -6,8 +6,9 @@ import Navbar from "./components/Navbar";
 import Home from "./pages/Home/Home";
 import About from "./pages/About/About";
 import Teaching from "./pages/Teaching/Teaching";
-import Meditation from "./pages/Meditation/Meditation";
+// import Meditation from "./pages/Meditation/Meditation";
 import PastEvents from "./pages/Pastevents/Pastevents";
+
 
 
 
@@ -22,7 +23,7 @@ const App = () => (
         <Route exact path="/" component={Home} />
         <Route exact path="/teaching" component={Teaching} />
         <Route exact path="/about" component={About} />
-        <Route exact path="/meditation" component={Meditation} />
+        {/* <Route exact path="/meditation" component={Meditation} /> */}
         <Route exact path="/pastevents" component={PastEvents} />
       </Wrapper>
     </div>
