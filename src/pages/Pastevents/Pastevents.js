@@ -9,6 +9,8 @@ import Door from "../../images/Door.png";
 import ClearWater from "../../images/ClearWater.png";
 import Sharpensword from "../../images/Sharpensword.png";
 import Nature from "../../images/Nature.png";
+import Matrix from "../../images/Matrix.png";
+
 
 
 
@@ -63,6 +65,16 @@ const PastEvents = () => (
                         </div>
                     </Col>
                 </Row>
+                <Row>
+                    <Col size="md-5" />
+
+                    <Col size="md-3">
+                        <div className="ver-image img">
+                            <img className="img-fluid responsive" alt="matrix" src={Matrix} />
+                        </div>
+
+                    </Col>
+                    </Row>
         </Container>
     </div>
 )
