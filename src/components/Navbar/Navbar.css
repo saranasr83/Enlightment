@@ -12,37 +12,43 @@ nav.navbar.navbar-default {
     color: white;
     font-size: 20px;
 }
-.nav-link:hover { 
+.nav-link:hover, .active>.nav-link { 
     color: rgb(60, 165, 250); 
 }  
-.active>.nav-link {
-    color: rgb(60, 165, 250);
-}
-/* .topnav .fa-bars {
+
+.topnav .fa-bars {
     color: white;
     padding: 10px;
     text-decoration: none;
     font-size: 35px;
     display: block;
-  } */
+}
+.hide {
+    display: none;
+}
 
-/* @media (max-width: 600px){
-    .topnav {
+@media (max-width: 600px){
+    .hide {
+        display: inline;
+    }
+    .show {
+        display: none;
+    }
+    /* .topnav {
         overflow: hidden;
         background-color: #333;
         position: relative;
-      }
-
-      .topnav .nav-item {
+    }
+    .topnav .nav-item {
         display: none;
-      }
-      .topnav .nav-link {
+    }
+    .topnav .nav-link {
         float: left;
         color: white;
         padding: 14px 16px;
         text-decoration: none;
         font-size: 17px;
-      }     
-} */
+    }      */
+}
 
 
