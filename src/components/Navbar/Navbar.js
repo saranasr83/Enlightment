@@ -1,7 +1,7 @@
 import React from "react";
 import "./Navbar.css";
 import { Link } from "react-router-dom";
-import Expander from "../Expander"
+// import Expander from "../Expander"
 
 
 const Navbar = props => (
@@ -9,7 +9,7 @@ const Navbar = props => (
     // <nav className="navbar navbar-expand-lg navbar-light bg-light">
     <nav className="navbar navbar-expand-lg topnav">
         <div>
-            <div className="hide">
+            {/* <div className="hide">
                 <Expander>
                     {({ expanded, handleExpandChange }) => (
                         <div>
@@ -49,16 +49,6 @@ const Navbar = props => (
                                                 About the Teacher
                                             </a>
                                         </li>
-                                        {/* <li
-                                            className={
-                                                window.location.pathname === "/meditation"
-                                                ? "nav-item active"
-                                                : "nav-item"
-                                            }>
-                                                <Link className="nav-link" to="/meditation">
-                                                    Why Meditation
-                                                </Link>
-                                            </li> */}
 
                                         <li
                                             className={
@@ -75,7 +65,7 @@ const Navbar = props => (
                         </div>
                     )}
                 </Expander>
-            </div>
+            </div> */}
 
             <div>
 
