@@ -23,17 +23,17 @@ nav.navbar.navbar-default {
     font-size: 35px;
     display: block;
 }
-/* .hide {
+.hide {
     display: none;
-} */
+}
 
 @media (max-width: 600px){
-    /* .hide {
+    .hide {
         display: inline;
-    } */
-    /* .show {
+    }
+    .show {
         display: none;
-    } */
+    }
     /* .topnav {
         overflow: hidden;
         background-color: #333;
