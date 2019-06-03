@@ -35,9 +35,9 @@ const Navbar = props => (
                                                     ? "nav-item active"
                                                     : "nav-item"
                                             }>
-                                            <a className="nav-link" href="/teaching">
-                                                About the Class
-                                            </a>
+                                            <Link className="nav-link" to="/teaching">
+                                            About the Class
+                                            </Link>
                                         </li>
                                         <li
                                             className={
