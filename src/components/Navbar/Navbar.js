@@ -18,7 +18,7 @@ const Navbar = props => (
                             </div>
                             {expanded && (
                                     <ul style={{listStyleType:"none"}}>
-                                        <li
+                                        <li onClick={handleExpandChange}
                                             className={
                                                 window.location.pathname === "/" ||
                                                     window.location.pathname === "/home"
@@ -29,7 +29,7 @@ const Navbar = props => (
                                                 Home
                                             </a>
                                         </li>
-                                        <li
+                                        <li onClick={handleExpandChange}
                                             className={
                                                 window.location.pathname === "/teaching"
                                                     ? "nav-item active"
@@ -39,7 +39,7 @@ const Navbar = props => (
                                             About the Class
                                             </Link>
                                         </li>
-                                        <li
+                                        <li onClick={handleExpandChange}
                                             className={
                                                 window.location.pathname === "/about"
                                                     ? "nav-item active"
@@ -50,7 +50,7 @@ const Navbar = props => (
                                             </Link>
                                         </li>
 
-                                        <li
+                                        <li onClick={handleExpandChange}
                                             className={
                                                 window.location.pathname === "/pastevents"
                                                     ? "nav-item active"
