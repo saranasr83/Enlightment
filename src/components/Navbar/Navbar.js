@@ -45,9 +45,9 @@ const Navbar = props => (
                                                     ? "nav-item active"
                                                     : "nav-item"
                                             }>
-                                            <a className="nav-link" href="/about">
-                                                About the Teacher
-                                            </a>
+                                            <Link className="nav-link" to="/about">
+                                            About the Teacher
+                                            </Link>
                                         </li>
 
                                         <li
@@ -56,9 +56,9 @@ const Navbar = props => (
                                                     ? "nav-item active"
                                                     : "nav-item"
                                             }>
-                                            <a className="nav-link" href="/pastevents">
-                                                Past Events
-                                            </a>
+                                            <Link className="nav-link" to="/pastevents">
+                                            Past Events
+                                            </Link>
                                         </li>
                                     </ul>
                             )}
@@ -79,7 +79,7 @@ const Navbar = props => (
                         }>
                         <Link className="nav-link" to="/">
                             Home
-                    </Link>
+                        </Link>
                     </li>
                     <li
                         className={
@@ -89,7 +89,7 @@ const Navbar = props => (
                         }>
                         <Link className="nav-link" to="/teaching">
                             About the Class
-                    </Link>
+                        </Link>
                     </li>
                     <li
                         className={
@@ -99,7 +99,7 @@ const Navbar = props => (
                         }>
                         <Link className="nav-link" to="/about">
                             About the Teacher
-                    </Link>
+                        </Link>
                     </li>
                     {/* <li
                 className={
@@ -120,7 +120,7 @@ const Navbar = props => (
                         }>
                         <Link className="nav-link" to="/pastevents">
                             Past Events
-                    </Link>
+                        </Link>
                     </li>
 
                 </ul>
