@@ -20,7 +20,9 @@
     -ms-transform: translate(-50%, -50%);
     text-align: center;
 } */
-.img-txt {
+
+/* this is the design for the pic overlay txt */
+/* .img-txt {
     transition: opacity .2s, visibility .2s;
     font-weight: bolder;
     font-size:40px;
@@ -30,7 +32,7 @@
     top: 30%;
     left:5%;
     visibility: hidden;
-}
+} */
 
 @media (min-width: 800px){
     .img-home {
@@ -40,19 +42,24 @@
 
 /* the condition we have inside the (media) if we detect the device has the hover, if the condition met do everything inside the media*/
 @media (hover: hover) {
-    .image-brk:hover .img-home {
+    /* .image-brk:hover .img-home {
         opacity: 0.3;
         transform: scale(1.03); 
         transition: all .5s; 
-    }
+    } */
     /* .image-brk:hover h3{
         opacity: 0;
     } */
-    .image-brk:hover .img-txt {
+    /* .image-brk:hover .img-txt {
         opacity:1;
         visibility: visible;
 
+    } */
+    .image-brk:hover {
+        transform: scale(1.03); 
+        transition: all .5s;
     }
+
     .image-sf:hover {
         transform: scale(1.03); 
         transition: all .5s;
