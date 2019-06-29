@@ -1,6 +1,7 @@
 import React from 'react';
 // import './App.css';
- import { BrowserRouter as Router, Route } from "react-router-dom";
+import ReactDOMServer from 'react-dom/server';
+import { BrowserRouter as Router, Route } from "react-router-dom";
 import Wrapper from "./components/Wrapper";
 import Navbar from "./components/Navbar";
 import Home from "./pages/Home/Home";
@@ -29,5 +30,5 @@ const App = () => (
     </div>
    </Router>
 );
-
+ReactDOMServer.renderToString(<App />);
 export default App;
