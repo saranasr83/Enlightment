@@ -10,6 +10,9 @@ import ClearWater from "../../images/ClearWater.png";
 import Sharpensword from "../../images/Sharpensword.png";
 import Nature from "../../images/Nature.png";
 import Matrix from "../../images/Matrix.png";
+import Happiness from "../../images/Happiness.png";
+import Finals from "../../images/Finals.png";
+
 
 
 
@@ -66,15 +69,28 @@ const PastEvents = () => (
                     </Col>
                 </Row>
                 <Row>
-                    <Col size="md-5" />
+                    <Col size="md-3" />
 
                     <Col size="md-3">
                         <div className="ver-image img">
                             <img className="img-fluid responsive" alt="matrix" src={Matrix} />
                         </div>
-
                     </Col>
-                    </Row>
+                    <Col size="md-3">
+                        <div className="hor-image img">
+                            <img className="img-fluid responsive" alt="nature" src={Happiness} />
+                        </div>
+                    </Col>
+                </Row>
+                <Row>
+                    <Col size="md-3" />
+
+                    <Col size="md-3">
+                        <div className="ver-image img">
+                            <img className="img-fluid responsive" alt="matrix" src={Finals} />
+                        </div>
+                    </Col>
+                </Row>
         </Container>
     </div>
 )

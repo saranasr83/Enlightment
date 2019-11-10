@@ -27,7 +27,7 @@ nav.navbar.navbar-default {
     display: none;
 }
 
-@media (max-width: 600px){
+@media (max-width: 1000px){
     .hide {
         display: inline;
     }
@@ -50,5 +50,6 @@ nav.navbar.navbar-default {
         font-size: 17px;
     }      */
 }
+
 
 
