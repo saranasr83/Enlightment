@@ -50,7 +50,7 @@ const Home = () => (
                             <p><u>MindSpace 575 Market St.</u></p>
                             <p><b>Wednesdays @ 5:15 PM</b></p>
                             <p><u>WeWork 535 Mission St.</u></p>
-                            <button style={{ backgroundColor: "#2BA500", padding: "10px", color: "white", cursor:"pointer"}} href="https://www.meetup.com/Free-Meditation-Class-for-Professionals-Downtown-SF/events/calendar/2020-01/" target="blank">
+                            <button style={{ backgroundColor: "#2BA500", padding: "10px", color: "white", cursor:"pointer"}}><a href="https://www.meetup.com/Free-Meditation-Class-for-Professionals-Downtown-SF/events/calendar/2020-01/" target="blank"></a>
                                 Free RSVP    
                             </button>
                         </div>
