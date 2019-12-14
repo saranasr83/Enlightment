@@ -24,9 +24,7 @@
     font-size: 30px;
 
  }
- /* .image-conatiner {
-     height: auto;
- } */
+ 
  
 /* h3 {
     text-shadow: 1px 2px 2px rgb(60, 165, 250);
@@ -91,15 +89,11 @@
         visibility: visible;
 
     } */
-    .image-brk:hover {
+    .image-location:hover {
         transform: scale(1.03); 
         transition: all .5s;
     }
 
-    .image-sf:hover {
-        transform: scale(1.03); 
-        transition: all .5s;
-    }
 }
 /* .logo {
     width: 150px;

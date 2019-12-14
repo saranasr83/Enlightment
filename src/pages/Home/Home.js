@@ -26,7 +26,7 @@ const Home = () => (
 
             <Row>
                 <Col size="md-6">
-                    <div className="image-container">
+                    <div className="image-location">
                         <h3 className="text-center location" style={{ marginBottom: "40px", marginTop: "50px", fontFamily: "palatino" }}> UC Berkeley location </h3>
                         <img className="img-fluid img-home" src={UCB} alt="UC Berkeley campaus" />
                         <div className="text-center" style={{ fontSize: "20px" }}>
@@ -42,7 +42,7 @@ const Home = () => (
                     </div>
                 </Col>
                 <Col size="md-6">
-                    <div className="image-container">
+                    <div className="image-location">
                         <h3 className="text-center location" style={{ marginBottom: "40px", marginTop: "50px", fontFamily: "palatino" }}>San Francisco location </h3>
                         <img className="img-fluid img-home" src={wework} alt="wework work space" />
                         <div className="text-center" style={{ fontSize: "20px" }}>
@@ -50,9 +50,11 @@ const Home = () => (
                             <p><u>MindSpace 575 Market St.</u></p>
                             <p><b>Wednesdays @ 5:15 PM</b></p>
                             <p><u>WeWork 535 Mission St.</u></p>
-                            <button style={{ backgroundColor: "#2BA500", padding: "10px", color: "white", cursor:"pointer"}}><a href="https://www.meetup.com/Free-Meditation-Class-for-Professionals-Downtown-SF/events/calendar/2020-01/" target="blank"></a>
+                            <a href="https://www.meetup.com/Free-Meditation-Class-for-Professionals-Downtown-SF/events/calendar/2020-01/" target="blank">
+                                <button style={{ backgroundColor: "#2BA500", padding: "10px", color: "white", cursor:"pointer"}}>
                                 Free RSVP    
-                            </button>
+                                </button>
+                            </a>
                         </div>
                         
                     </div>
