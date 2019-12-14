@@ -16,7 +16,7 @@ const Home = () => (
     <div>
         
         <div className="image">
-        <img className="img-fluid" style={{height:"100%",width:"100%", marginBottom:"20px", marginTop:"0", display:"block"}} src={MeditationCity}/>
+        <img className="img-fluid" style={{height:"100%",width:"100%", marginBottom:"20px", marginTop:"55px", display:"block"}} src={MeditationCity}/>
         <h1 className="text" style={{ fontFamily: "palatino" }}>Turn down the stress <br />and volume.</h1>
         <p className="text2" style={{ fontFamily: "palatino" }}><b><u>FREE</u></b> weekly meditations in <br />San Franciaco and UC Berkeley</p>
         </div>

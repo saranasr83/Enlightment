@@ -74,9 +74,6 @@
     .location{
         font-size: 20px;
     }
-    .image {
-        margin-top: 20px;
-    }
 }
 
 /* the condition we have inside the (media) if we detect the device has the hover, if the condition met do everything inside the media*/
