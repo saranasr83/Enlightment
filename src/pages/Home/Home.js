@@ -14,23 +14,20 @@ import UCB from "../../images/UCB.jpg";
 
 const Home = () => (
     <div>
-        {/* <Hero heigth="100%" width="100%" backgroundImage={MeditationCity}>
-            <h1>Turn down the stress <br />and volume.</h1>
-            <p><b><u>FREE</u></b> weekly meditations in <br />San Franciaco and UC Berkeley</p>
-        </Hero> */}
+        
         <div className="image">
         <img className="img-fluid" style={{height:"100%",width:"100%", marginBottom:"20px", marginTop:"0", display:"block"}} src={MeditationCity}/>
-        <h1 className="text">Turn down the stress <br />and volume.</h1>
-        <p className="text2"><b><u>FREE</u></b> weekly meditations in <br />San Franciaco and UC Berkeley</p>
+        <h1 className="text" style={{ fontFamily: "palatino" }}>Turn down the stress <br />and volume.</h1>
+        <p className="text2" style={{ fontFamily: "palatino" }}><b><u>FREE</u></b> weekly meditations in <br />San Franciaco and UC Berkeley</p>
         </div>
-        <h1 className="text-center"><b>A brighter, happier, and more balaced <font color="#1766CE"><u>you</u></font></b></h1>
+        <h1 className="text-center" style={{ fontFamily: "palatino" }}><b>A brighter, happier, and more balaced <font color="#1766CE"><u>you</u></font></b></h1>
         
         <Container style={{ fontFamily: "palatino" }}>
 
             <Row>
                 <Col size="md-6">
                     <div className="image-container">
-                        <h3 className="text-center" style={{ marginBottom: "40px", marginTop: "50px" }}> UC Berkeley location </h3>
+                        <h3 className="text-center" style={{ marginBottom: "40px", marginTop: "50px", fontFamily: "palatino" }}> UC Berkeley location </h3>
                         <img className="img-fluid img-home" src={UCB} alt="UC Berkeley campaus" />
                         <div className="text-center" style={{ fontSize: "20px" }}>
                             <p style={{ marginTop: "25px",color:"#1766CE" }}><b>New Location and Time TBD</b></p>
@@ -46,12 +43,12 @@ const Home = () => (
                 </Col>
                 <Col size="md-6">
                     <div className="image-container">
-                        <h3 className="text-center" style={{ marginBottom: "40px", marginTop: "50px" }}>San Francisco location </h3>
+                        <h3 className="text-center" style={{ marginBottom: "40px", marginTop: "50px", fontFamily: "palatino" }}>San Francisco location </h3>
                         <img className="img-fluid img-home" src={wework} alt="woman's meditating in the city" />
                         <div className="text-center" style={{ fontSize: "20px" }}>
                             <p style={{ marginTop: "25px"}}><b>Tuesdays @ 6 PM</b></p>
                             <p><u>MindSpace 575 Market St.</u></p>
-                            <p style={{ marginTop: "25px"}}><b>Wednesdays @ 5:15 PM</b></p>
+                            <p><b>Wednesdays @ 5:15 PM</b></p>
                             <p><u>WeWork 535 Mission St.</u></p>
                             <button style={{ backgroundColor: "#2BA500", padding: "10px", color: "white", cursor:"pointer"  }}href="https://www.meetup.com/Free-Meditation-Class-for-Professionals-Downtown-SF/events/calendar/2020-01/" target="blank">
                                 Free RSVP    
@@ -63,7 +60,7 @@ const Home = () => (
             </Row>
 
         </Container>
-        <div className="text-center"style={{padding:"100px",backgroundColor:"#1766CE", color:"white", fontSize:"25px"}}>
+        <div className="text-center"style={{padding:"100px",backgroundColor:"#1766CE", color:"white", fontSize:"25px",fontFamily: "palatino"}}>
             <h1>All Are Welcome.</h1>
             <hr style={{width:"50%", borderTop: "1px solid white"}}/>
             <p>Beginners and experienced meditation practioners alike.</p>
