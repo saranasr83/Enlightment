@@ -1,19 +1,27 @@
 nav.navbar.navbar-default {
     margin-bottom: 0; 
+    
 }
 .navbar {
-    background-color: black;
+    width:100%;
+    display: block;    
 }
+
 .navbar-nav .nav-link {
     font-family: serif;
-}    
+}  
 
 .nav-link {
-    color: white;
+    color: black;
     font-size: 20px;
 }
+
+.nav-item1{
+    margin-right: auto;
+}
+
 .nav-link:hover, .active>.nav-link { 
-    color: rgb(60, 165, 250); 
+    color: #1766CE; 
 }  
 
 .topnav .fa-bars {

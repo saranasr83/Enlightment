@@ -7,7 +7,8 @@ import Expander from "../Expander"
 const Navbar = props => (
     // Depending on the current path, this component sets the "active" class on the appropriate navigation link item
     // <nav className="navbar navbar-expand-lg navbar-light bg-light">
-    <nav className="navbar navbar-expand-lg topnav">
+    <nav className="navbar navbar-expand-lg">
+
         <div>
             <div className="hide">
                 <Expander>
@@ -26,7 +27,7 @@ const Navbar = props => (
                                                     : "nav-item"
                                             }>
                                             <a className="nav-link" href="/">
-                                                Home
+                                                Meditate Bay Area
                                             </a>
                                         </li>
                                         <li onClick={handleExpandChange}
@@ -71,14 +72,15 @@ const Navbar = props => (
 
                 <ul className="navbar-nav show">
                     <li
-                        className={
+                        className= {
                             window.location.pathname === "/" ||
                                 window.location.pathname === "/home"
-                                ? "nav-item active"
-                                : "nav-item"
-                        }>
+                                ? "nav-item active nav-item1"
+                                : "nav-item nav-item1"
+                                
+                        } >
                         <Link className="nav-link" to="/">
-                            Home
+                        <b>Meditate Bay Area</b>
                         </Link>
                     </li>
                     <li

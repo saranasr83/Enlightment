@@ -4,45 +4,71 @@ import Container from "../../components/Container";
 import Col from "../../components/Col";
 import Row from "../../components/Row";
 // import Btn from "../../components/Btn";
-import MeditationCity from "../../images/MeditationCity.jpg";
-import UCB from "../../images/UCB.jpeg";
+import MeditationCity from "../../images/MeditationCity.png";
+import wework from "../../images/wework.png";
+
+import UCB from "../../images/UCB.jpg";
 // import Berkeley_seal from "../../images/Berkeley_seal.png";
 // import SF_seal from "../../images/SF_seal.png"
 
 
 const Home = () => (
     <div>
-        <Container style={{ color: "white", fontFamily: "palatino" }}>
-            <h1 className="text-center" > Free Meditations</h1>
-            <h2 className="text-center" >2 Locations <span><i className="fas fa-globe" style={{fontSize:"23px"}}></i></span> All Welcome</h2>
-            <br />
+        {/* <Hero heigth="100%" width="100%" backgroundImage={MeditationCity}>
+            <h1>Turn down the stress <br />and volume.</h1>
+            <p><b><u>FREE</u></b> weekly meditations in <br />San Franciaco and UC Berkeley</p>
+        </Hero> */}
+        <div className="image">
+        <img className="img-fluid" style={{height:"100%",width:"100%", marginBottom:"20px", marginTop:"0", display:"block"}} src={MeditationCity}/>
+        <h1 className="text">Turn down the stress <br />and volume.</h1>
+        <p className="text2"><b><u>FREE</u></b> weekly meditations in <br />San Franciaco and UC Berkeley</p>
+        </div>
+        <h1 className="text-center"><b>A brighter, happier, and more balaced <font color="#1766CE"><u>you</u></font></b></h1>
+        
+        <Container style={{ fontFamily: "palatino" }}>
+
             <Row>
                 <Col size="md-6">
-                    <div className="image-brk">
-                        <h3 className="text-center" style={{ color: "rgb(60, 165, 250)"}}> UC Berkeley </h3>
-                        <a href="https://www.meetup.com/Free-Meditation-Class-at-Cal/events/" target="blank">
-                            <img className="img-fluid img-home" src={UCB} alt="UC Berkeley campaus" />
-                            {/* <p className="img-txt">Coming again in Fall, 2019</p> */}
+                    <div className="image-container">
+                        <h3 className="text-center" style={{ marginBottom: "40px", marginTop: "50px" }}> UC Berkeley location </h3>
+                        <img className="img-fluid img-home" src={UCB} alt="UC Berkeley campaus" />
+                        <div className="text-center" style={{ fontSize: "20px" }}>
+                            <p style={{ marginTop: "25px",color:"#1766CE" }}><b>New Location and Time TBD</b></p>
+                            <p>2545-2581 Bancroft Way</p>
+                            <p>Hearst Field Annex B5</p>
+                            <p>Berkeley, CA 94704</p>
+                            <button style={{ backgroundColor: "grey", padding: "10px", color: "white"}} href="/" target="blank">
+                                Returning Soon
+                            </button>
+                        </div>
 
-                            {/* <div className="overlay">
-                                <img className="logo" src={Berkeley_seal} />
-                            </div> */}
-                        </a>
                     </div>
                 </Col>
                 <Col size="md-6">
-                    <div className="image-sf">
-                        <h3 className="text-center" style={{ color: "rgb(60, 165, 250)"}}>San Francisco </h3>
-                        <a href="https://www.meetup.com/Free-Meditation-Class-for-Professionals-Downtown-SF/events/" target="blank">
-                            <img className="img-fluid img-home" src={MeditationCity} alt="woman's meditating in the city" />
-                            {/* <div className="overlay">
-                                <img className="logo" src={SF_seal} />
-                            </div> */}
-                        </a>
+                    <div className="image-container">
+                        <h3 className="text-center" style={{ marginBottom: "40px", marginTop: "50px" }}>San Francisco location </h3>
+                        <img className="img-fluid img-home" src={wework} alt="woman's meditating in the city" />
+                        <div className="text-center" style={{ fontSize: "20px" }}>
+                            <p style={{ marginTop: "25px"}}><b>Tuesdays @ 6 PM</b></p>
+                            <p><u>MindSpace 575 Market St.</u></p>
+                            <p style={{ marginTop: "25px"}}><b>Wednesdays @ 5:15 PM</b></p>
+                            <p><u>WeWork 535 Mission St.</u></p>
+                            <button style={{ backgroundColor: "#2BA500", padding: "10px", color: "white", cursor:"pointer"  }}href="https://www.meetup.com/Free-Meditation-Class-for-Professionals-Downtown-SF/events/calendar/2020-01/" target="blank">
+                                Free RSVP    
+                            </button>
+                        </div>
+                        
                     </div>
                 </Col>
             </Row>
+
         </Container>
+        <div className="text-center"style={{padding:"100px",backgroundColor:"#1766CE", color:"white", fontSize:"25px"}}>
+            <h1>All Are Welcome.</h1>
+            <hr style={{width:"50%", borderTop: "1px solid white"}}/>
+            <p>Beginners and experienced meditation practioners alike.</p>
+            <p>Religious and non-religious. People of all walks of lifewho want to learnto touch their own True Self through meditation and minfulness. </p>
+        </div>
     </div>
 )
 

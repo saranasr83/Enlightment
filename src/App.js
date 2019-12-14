@@ -18,8 +18,8 @@ const App = () => (
     <div>
       
       <Navbar />
-      <hr style={{border: "1px solid white", marginTop:"1px"}} />
-      <br/>
+      {/* <hr style={{border: "1px solid white", marginTop:"1px"}} />
+      <br/> */}
       <Wrapper>
         <Route exact path="/" component={Home} />
         <Route exact path="/teaching" component={Teaching} />
