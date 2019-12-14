@@ -4,7 +4,12 @@ nav.navbar.navbar-default {
 }
 .navbar {
     width:100%;
-    display: block;    
+    display: block;  
+    position: fixed; 
+    overflow: hidden;
+    background-color: white;
+    top: 0;
+ 
 }
 
 .navbar-nav .nav-link {

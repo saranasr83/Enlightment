@@ -20,14 +20,14 @@ const Home = () => (
         <h1 className="text" style={{ fontFamily: "palatino" }}>Turn down the stress <br />and volume.</h1>
         <p className="text2" style={{ fontFamily: "palatino" }}><b><u>FREE</u></b> weekly meditations in <br />San Franciaco and UC Berkeley</p>
         </div>
-        <h1 className="text-center" style={{ fontFamily: "palatino" }}><b>A brighter, happier, and more balaced <font color="#1766CE"><u>you</u></font></b></h1>
+        <h1 className="text-center bright" style={{ fontFamily: "palatino" }}><b>A brighter, happier, and more balaced <font color="#1766CE"><u>you</u></font></b></h1>
         
         <Container style={{ fontFamily: "palatino" }}>
 
             <Row>
                 <Col size="md-6">
                     <div className="image-container">
-                        <h3 className="text-center" style={{ marginBottom: "40px", marginTop: "50px", fontFamily: "palatino" }}> UC Berkeley location </h3>
+                        <h3 className="text-center location" style={{ marginBottom: "40px", marginTop: "50px", fontFamily: "palatino" }}> UC Berkeley location </h3>
                         <img className="img-fluid img-home" src={UCB} alt="UC Berkeley campaus" />
                         <div className="text-center" style={{ fontSize: "20px" }}>
                             <p style={{ marginTop: "25px",color:"#1766CE" }}><b>New Location and Time TBD</b></p>
@@ -43,7 +43,7 @@ const Home = () => (
                 </Col>
                 <Col size="md-6">
                     <div className="image-container">
-                        <h3 className="text-center" style={{ marginBottom: "40px", marginTop: "50px", fontFamily: "palatino" }}>San Francisco location </h3>
+                        <h3 className="text-center location" style={{ marginBottom: "40px", marginTop: "50px", fontFamily: "palatino" }}>San Francisco location </h3>
                         <img className="img-fluid img-home" src={wework} alt="woman's meditating in the city" />
                         <div className="text-center" style={{ fontSize: "20px" }}>
                             <p style={{ marginTop: "25px"}}><b>Tuesdays @ 6 PM</b></p>
