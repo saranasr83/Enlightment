@@ -5,11 +5,11 @@ nav.navbar.navbar-default {
 .navbar {
     width:100%;
     display: block;  
+    top: 0;
     position: fixed; 
     overflow: hidden;
     background-color: white;
-    top: 0;
- 
+    z-index: 1;
 }
 
 .navbar-nav .nav-link {
@@ -39,6 +39,9 @@ nav.navbar.navbar-default {
 .hide {
     display: none;
 }
+@media (min-width: 1000px) {
+    
+}
 
 @media (max-width: 1000px){
     .hide {
@@ -47,6 +50,7 @@ nav.navbar.navbar-default {
     .show {
         display: none;
     }
+     
     /* .topnav {
         overflow: hidden;
         background-color: #333;

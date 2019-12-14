@@ -44,7 +44,7 @@ const Home = () => (
                 <Col size="md-6">
                     <div className="image-container">
                         <h3 className="text-center location" style={{ marginBottom: "40px", marginTop: "50px", fontFamily: "palatino" }}>San Francisco location </h3>
-                        <img className="img-fluid img-home" src={wework} alt="woman's meditating in the city" />
+                        <img className="img-fluid img-home" src={wework} alt="wework work space" />
                         <div className="text-center" style={{ fontSize: "20px" }}>
                             <p style={{ marginTop: "25px"}}><b>Tuesdays @ 6 PM</b></p>
                             <p><u>MindSpace 575 Market St.</u></p>
