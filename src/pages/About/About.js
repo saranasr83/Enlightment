@@ -19,7 +19,7 @@ const About = () => (
                 <h1 className="text-center" style={{marginBottom:"20px", color:"#1766CE"}}><b>About the teacher</b></h1>
                 <hr style={{marginBottom:"25px"}}/>
 
-                    <p>Born in California, Chitananda has been on the path for 14 years under the guidance of extraordinarily bright teachers in a rich school of Buddhism. He attributes his success in academics, athletics and career to his daily home meditation practice. In fact, meditation is his favorite thing, because it's the one thing that gives to all the other things he loves (career success, SCUBA, Martial Arts, etc.). And he loves sharing it with all sincere students.</p>
+                    <p>Born in California, Chitananda has been on the path for over 15 years under the guidance of extraordinarily bright teachers in a rich school of Buddhism. He attributes his success in academics, athletics and career to his daily home meditation practice. In fact, meditation is his favorite thing, because it's the one thing that gives to all the other things he loves (career success, SCUBA, Martial Arts, etc.). And he loves sharing it with all sincere students.</p>
                     <br/>
                     <p>Chitananda has applied the teachings in everyday modern life, right here in the Bay Area for years, in several arenas, as a...</p>
                     <ul>
