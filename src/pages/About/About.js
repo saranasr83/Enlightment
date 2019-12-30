@@ -1,7 +1,6 @@
 import React from "react";
 import Container from "../../components/Container";
-// import Col from "../../components/Col"
-// import Row from "../../components/Row"
+
 import Mount from "../../images/mt_tam_real.jpg"
 
 
@@ -14,8 +13,7 @@ const About = () => (
         </figure>
         
         <Container style={{fontFamily:"palatino", fontSize:"20px" }}>
-            {/* <Row>
-                <Col size="md-6"> */}
+            
                 <h1 className="text-center" style={{marginBottom:"20px", color:"#1766CE"}}><b>About the teacher</b></h1>
                 <hr style={{marginBottom:"25px"}}/>
 
@@ -32,12 +30,7 @@ const About = () => (
                     </ul>
                     <br/>
                     <p>Buddhism, as Chitananda practices it, is more of a psychology than a religion, informing the mindset we bring to every situation in daily life, and the meditation that empowers our days. People of every walk of life have naturally returned to this class week after week.</p>
-                {/* </Col> */}
-
-                {/* <Col size="md-6">
-                    <img className="img-fluid" src={Mount} alt="mountain" />
-                </Col> */}
-            {/* </Row> */}
+                
         </Container>
     </div>
 )
