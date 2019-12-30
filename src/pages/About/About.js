@@ -12,7 +12,7 @@ const About = () => (
         <figcaption>"Mount Tam - where I often take my students to meditate"</figcaption>
         </figure>
         
-        <Container style={{fontFamily:"palatino", fontSize:"20px" }}>
+        <Container style={{fontFamily:"sans-serif", fontSize:"20px" }}>
             
                 <h1 className="text-center" style={{marginBottom:"20px", color:"#1766CE"}}><b>About the teacher</b></h1>
                 <hr style={{marginBottom:"25px"}}/>

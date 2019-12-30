@@ -11,7 +11,7 @@ const Teaching = () => (
         <div className="hero">
         <img className="img-fluid" style={{height:"100%",width:"100%",display:"block",marginBottom:"20px",marginTop:"55px"}} src={Sunrise}/>
         </div>
-        <Container style={{fontFamily:"palatino", fontSize:"20px"}}>
+        <Container style={{fontFamily:"sans-serif", fontSize:"20px"}}>
         <h1 className="text-center" style={{marginBottom:"20px", color:"#1766CE"}}><b>About the class</b></h1>
         <hr style={{marginBottom:"25px"}}/>
             {/* <Row style={{fontSize:"20px"}}>
