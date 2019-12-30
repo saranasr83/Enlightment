@@ -34,13 +34,12 @@ class Home extends React.Component {
                                 <img className="img-fluid img-home" src={UCB} alt="UC Berkeley campaus" />
                                 <div className="text-center" style={{ fontSize: "20px" }}>
                                     <p style={{ marginTop: "25px", color: "#1766CE" }}><b>TBD</b></p>
-                                    <p>New on-campus location and</p>
+                                    <p>New on-campus location and time </p>
+                                    <p>TBD early February 2020</p>
                                     <br/>
-                                    <p>TBD early February 2020 </p>
-                                    
                                     <button className="brk-btn" style={{ backgroundColor: "grey", padding: "10px", color: "white" }} href="/" target="blank">
                                         Returning Soon
-                          </button>
+                                    </button>
                                 </div>
 
                             </div>
@@ -51,10 +50,10 @@ class Home extends React.Component {
                                 <img className="img-fluid img-home" src={sf} alt="wework work space" />
                                 <div className="text-center" style={{ fontSize: "20px" }}>
                                     <p style={{ marginTop: "25px", color: "#1766CE" }}><b>2 locations</b></p>
-                                    <p style={{ marginTop: "25px" }}><b>Tuesdays @ 6 PM, </b><u>MindSpace 575 Market St.</u></p>
+                                    <p><b>Tuesdays @ 6 PM, </b><u>MindSpace 575 Market St.</u></p>
                                     {/* <p><u>MindSpace 575 Market St.</u></p> */}
-                                    <br />
                                     <p><b>Wednesdays @ 5:15 PM, </b><u>WeWork 535 Mission St.</u></p>
+                                    <br/>
                                     {/* <p><u>WeWork 535 Mission St.</u></p> */}
                                     <a href="https://www.meetup.com/Free-Meditation-Class-for-Professionals-Downtown-SF/events/calendar/2020-01/" target="blank">
                                         <button className="sf-btn" style={{ backgroundColor: "#2BA500", padding: "10px", color: "white", cursor: "pointer" }} onClick={() => {this.trackFbClick()}}>
