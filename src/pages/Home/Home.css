@@ -12,19 +12,29 @@
  .text { 
     position: absolute; 
     color: white;
-    font-size: 60px;
+    /* font-size: 60px; */
+    font-size: 5vw;
+
     top: 200px; 
     left: 110px; 
  }
  .text2 {
     position: absolute; 
-    top: 350px; 
+    top: 400px; 
     left: 110px; 
     color: white;
-    font-size: 30px;
-
+    /* font-size: 30px; */
+    font-size: 2.5vw;
  }
- 
+ .bright {
+    font-size: 3vw;
+}
+.location{
+    font-size: 2vw;
+}
+.welcome{
+    font-size: 3vw;
+}
  
 /* h3 {
     text-shadow: 1px 2px 2px rgb(60, 165, 250);
@@ -57,20 +67,20 @@
 
 @media (max-width: 768px){
     .text {
-        font-size: 25px;
+        /* font-size: 25px; */
         top: 80px; 
         left: 50px; 
     }
     .text2 {
-        font-size: 15px;
+        /* font-size: 15px; */
         top: 160px; 
         left: 50px;
     }
     .bright {
-        font-size: 25px;
+        /* font-size: 25px; */
     }
     .location{
-        font-size: 20px;
+        /* font-size: 20px; */
     }
 }
 

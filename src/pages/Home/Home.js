@@ -20,7 +20,7 @@ class Home extends React.Component {
 
                 <div className="image">
                     <img className="img-fluid" style={{ height: "100%", width: "100%", marginBottom: "50px", marginTop: "55px", display: "block" }} src={MeditationCity} />
-                    <h1 className="text" style={{ fontFamily: "sans-serif" }}>Turn down the stress <br />and volume.</h1>
+                    <h1 className="text" style={{ fontFamily: "sans-serif" }}><b>Turn down the stress <br />and volume.</b></h1>
                     <p className="text2" style={{ fontFamily: "sans-serif" }}><b><u>FREE</u></b> weekly meditations in <br />San Francisco and UC Berkeley</p>
                 </div>
                 <h1 className="text-center bright" style={{ fontFamily: "sans-serif" }}><b>A brighter, happier, more balanced <font color="#1766CE"><u>you</u></font></b></h1>
@@ -28,22 +28,7 @@ class Home extends React.Component {
                 <Container style={{ fontFamily: "sans-serif" }}>
 
                     <Row>
-                        <Col size="md-6">
-                            <div className="image-location">
-                                <h3 className="text-center location" style={{ marginBottom: "10px", marginTop: "50px", fontFamily: "sans-serif" }}> UC Berkeley </h3>
-                                <img className="img-fluid img-home" src={UCB} alt="UC Berkeley campaus" />
-                                <div className="text-center" style={{ fontSize: "20px" }}>
-                                    <p style={{ marginTop: "25px", color: "#1766CE" }}><b>TBD</b></p>
-                                    <p>New on-campus location and time </p>
-                                    <p>TBD early February 2020</p>
-                                    <br/>
-                                    <button className="brk-btn" style={{ backgroundColor: "grey", padding: "10px", color: "white" }} href="/" target="blank">
-                                        Returning Soon
-                                    </button>
-                                </div>
-
-                            </div>
-                        </Col>
+                        
                         <Col size="md-6">
                             <div className="image-location">
                                 <h3 className="text-center location" style={{ marginTop: "50px", fontFamily: "sans-serif" }}>San Francisco</h3>
@@ -64,14 +49,32 @@ class Home extends React.Component {
 
                             </div>
                         </Col>
+                        <Col size="md-6">
+                            <div className="image-location">
+                                <h3 className="text-center location" style={{ marginBottom: "10px", marginTop: "50px", fontFamily: "sans-serif" }}> UC Berkeley </h3>
+                                <img className="img-fluid img-home" src={UCB} alt="UC Berkeley campaus" />
+                                <div className="text-center" style={{ fontSize: "20px" }}>
+                                    <p style={{ marginTop: "25px", color: "#1766CE" }}><b>TBD</b></p>
+                                    <p>New on-campus location and time </p>
+                                    <p>TBD early February 2020</p>
+                                    <br/>
+                                    <button className="brk-btn" style={{ backgroundColor: "grey", padding: "10px", color: "white" }} href="/" target="blank">
+                                        Returning Soon
+                                    </button>
+                                </div>
+
+                            </div>
+                        </Col>
                     </Row>
 
                 </Container>
-                <div className="text-center" style={{ padding: "100px", backgroundColor: "#1766CE", color: "white", fontSize: "25px", fontFamily: "sans-serif" }}>
-                    <h1>All Are Welcome.</h1>
-                    <hr style={{ width: "50%", borderTop: "1px solid white" }} />
+                <div className="text-center" style={{ backgroundColor: "#1766CE", color: "white", fontSize: "25px", fontFamily: "sans-serif" }}>
+                    <h1 className="welcome" style={{padding: "50px"}}><b>All Are Welcome</b></h1>
+                    {/* <hr style={{ width: "50%", borderTop: "1px solid white" }} /> */}
+                    <div style={{paddingRight: "200px",paddingLeft:"200px"}}>
                     <p>Beginners and experienced meditation practioners alike.</p>
-                    <p>Religious and non-religious. People of all walks of life who want to learn to touch their own True Self through meditation and minfulness. </p>
+                    <p>Religious and non-religious. People from all walks of life who want to learn to connect with their "True Self" through meditation and minfulness. </p>
+                    </div>
                 </div>
             </div>
         );
