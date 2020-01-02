@@ -65,22 +65,22 @@
     .text2 {
         /* font-size: 15px; */
         top: 160px; 
-        left: 50px;
+        left: 30px;
     }
     .bright {
         font-size: 20px;
     }
     .location{
-        font-size: 15px;
+        font-size: 17px;
     }
     .welcome{
         font-size: 20px;
     }
     .welcome-txt {
-        font-size: 12px;
+        font-size: 13px;
     }
     .class-time-loc{
-        font-size: 12px;
+        font-size: 13px;
 
     }
 }
