@@ -14,9 +14,8 @@
     color: white;
     /* font-size: 60px; */
     font-size: 5vw;
-
     top: 200px; 
-    left: 100px; 
+    left: 50px; 
  }
  .text2 {
     position: absolute; 
@@ -81,7 +80,7 @@
         font-size: 12px;
     }
     .class-time-loc{
-        font-size: 12px;
+        /* font-size: 12px; */
 
     }
 }
