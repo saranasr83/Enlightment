@@ -16,7 +16,7 @@
     font-size: 5vw;
 
     top: 200px; 
-    left: 110px; 
+    left: 100px; 
  }
  .text2 {
     position: absolute; 
@@ -26,15 +26,7 @@
     /* font-size: 30px; */
     font-size: 2.5vw;
  }
- .bright {
-    font-size: 3vw;
-}
-.location{
-    font-size: 2vw;
-}
-.welcome{
-    font-size: 3vw;
-}
+ 
  
 /* h3 {
     text-shadow: 1px 2px 2px rgb(60, 165, 250);
@@ -77,10 +69,20 @@
         left: 50px;
     }
     .bright {
-        /* font-size: 25px; */
+        font-size: 20px;
     }
     .location{
-        /* font-size: 20px; */
+        font-size: 15px;
+    }
+    .welcome{
+        font-size: 20px;
+    }
+    .welcome-txt {
+        font-size: 12px;
+    }
+    .class-time-loc{
+        font-size: 12px;
+
     }
 }
 
