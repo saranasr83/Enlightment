@@ -33,14 +33,14 @@ class Home extends React.Component {
                             <div className="image-location">
                                 <h3 className="text-center location" style={{ marginTop: "50px", fontFamily: "sans-serif" }}>San Francisco</h3>
                                 <img className="img-fluid img-home" src={sf} alt="wework work space" />
-                                <div className="text-center class-time-loc" style={{ fontSize: "20px" }}>
+                                <div className="text-center class-time-loc">
                                     <p style={{ marginTop: "25px", color: "#1766CE" }}><b>2 locations</b></p>
                                     <p><b>Tuesdays @ 6 PM, </b><u>MindSpace 575 Market St.</u></p>
                                     {/* <p><u>MindSpace 575 Market St.</u></p> */}
                                     <p><b>Wednesdays @ 5:15 PM, </b><u>WeWork 535 Mission St.</u></p>
                                     <br/>
                                     {/* <p><u>WeWork 535 Mission St.</u></p> */}
-                                    <a href="https://www.meetup.com/Free-Meditation-Class-for-Professionals-Downtown-SF/events/calendar/2020-01/" target="blank">
+                                    <a href="https://www.meetup.com/Free-Meditation-Class-for-Professionals-Downtown-SF/events/" target="blank">
                                         <button className="sf-btn" style={{ backgroundColor: "#2BA500", padding: "10px", color: "white", cursor: "pointer" }} onClick={() => {this.trackFbClick()}}>
                                         Free RSVP
                                         </button>
@@ -53,7 +53,7 @@ class Home extends React.Component {
                             <div className="image-location">
                                 <h3 className="text-center location" style={{ marginBottom: "10px", marginTop: "50px", fontFamily: "sans-serif" }}> UC Berkeley </h3>
                                 <img className="img-fluid img-home" src={UCB} alt="UC Berkeley campaus" />
-                                <div className="text-center class-time-loc" style={{ fontSize: "20px" }}>
+                                <div className="text-center class-time-loc">
                                     <p style={{ marginTop: "25px", color: "#1766CE" }}><b>TBD</b></p>
                                     <p>New on-campus location and time </p>
                                     <p>TBD early February 2020</p>
@@ -68,7 +68,7 @@ class Home extends React.Component {
                     </Row>
 
                 </Container>
-                <div className="text-center" style={{ padding: "100px",backgroundColor: "#1766CE", color: "white", fontSize: "25px", fontFamily: "sans-serif" }}>
+                <div className="text-center" style={{ padding: "100px",backgroundColor: "#1766CE", color: "white", fontFamily: "sans-serif" }}>
                     <h1 className="welcome"><b>All Are Welcome</b></h1>
                     {/* <hr style={{ width: "50%", borderTop: "1px solid white" }} /> */}
                     <div className="welcome-txt">
