@@ -47,7 +47,9 @@ nav.navbar.navbar-default {
     .show {
         display: none;
     }
-     
+    .nav-link{
+        font-size: 15px;
+    }
     /* .topnav {
         overflow: hidden;
         background-color: #333;
