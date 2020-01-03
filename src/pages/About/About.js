@@ -1,6 +1,6 @@
 import React from "react";
 import Container from "../../components/Container";
-
+import Hero from "../../components/Hero";
 import Mount from "../../images/mt_tam_real.jpg"
 
 
@@ -8,7 +8,9 @@ import Mount from "../../images/mt_tam_real.jpg"
 const About = () => (
     <div>
         <figure className="hero">
-        <img className="img-fluid" style={{height:"100%",width:"100%"}} src={Mount}/>
+        {/* <img className="img-fluid" style={{height:"100%",width:"100%"}} src={Mount}/> */}
+        <Hero  path={Mount} height='80vh' description='mt.Tam' />
+
         <figcaption>"Mount Tam - where I often take my students to meditate"</figcaption>
         </figure>
         

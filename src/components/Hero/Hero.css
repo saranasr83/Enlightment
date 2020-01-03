@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.hero {
+    /* --hero-image: url('example.jpg'); */
+    --hero-image-height: 100%;
+    max-height: var(--hero-image-height);
+    position: relative;
+    height: var(--hero-image-height);
+    overflow: hidden;
+    width: 100%;
+}
+
+.hero__image {
+    background-image: var(--hero-image);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+}
+
+.hero__image-blurred-bg {
+    background-image: var(--hero-image);
+    background-position: center;
+    background-size: cover;
+    height: calc(100% + 40px);
+    filter: blur(10px);
+    left: -20px;
+    position: absolute;
+    top: -20px;
+    width: calc(100% + 40px);
+    z-index: -1;
+}

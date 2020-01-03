@@ -1,5 +1,6 @@
 import React from "react";
 import Container from "../../components/Container";
+import Hero from "../../components/Hero";
 // import Col from "../../components/Col";
 // import Row from "../../components/Row";
 import Sunrise from "../../images/meditating_sunrise.jpg";
@@ -8,11 +9,12 @@ import "./Teaching.css";
 
 const Teaching = () => (
     <div>
-        <div className="hero">
-        <img className="img-fluid" style={{height:"100%",width:"100%",display:"block",marginBottom:"20px",marginTop:"55px"}} src={Sunrise}/>
+        <div>
+        {/* <img className="img-fluid" style={{height:"100%",width:"100%",display:"block",marginBottom:"20px",marginTop:"55px"}} src={Sunrise}/> */}
+        <Hero  path={Sunrise} height='80vh' description='meditation in sunrise' />
         </div>
         <Container style={{fontFamily:"sans-serif", fontSize:"20px"}}>
-        <h1 className="text-center" style={{marginBottom:"20px", color:"#1766CE"}}><b>About the class</b></h1>
+        <h1 className="text-center" style={{marginTop: "25px",marginBottom:"20px", color:"#1766CE"}}><b>About the class</b></h1>
         <hr style={{marginBottom:"25px"}}/>
             {/* <Row style={{fontSize:"20px"}}>
                 <Col size="md-6"> */}
