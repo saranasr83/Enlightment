@@ -7,7 +7,7 @@ import Mount from "../../images/mt_tam_real.jpg"
 
 const About = () => (
     <div>
-        <figure className="hero">
+        <figure>
         {/* <img className="img-fluid" style={{height:"100%",width:"100%"}} src={Mount}/> */}
         <Hero  path={Mount} height='80vh' description='mt.Tam' />
 
