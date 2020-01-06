@@ -10,8 +10,8 @@ import "./Teaching.css";
 const Teaching = () => (
     <div>
         <div>
-        {/* <img className="img-fluid" style={{height:"100%",width:"100%",display:"block",marginBottom:"20px",marginTop:"55px"}} src={Sunrise}/> */}
-        <Hero  path={Sunrise} height='80vh' description='meditation in sunrise' />
+        <img className="img-fluid" style={{height:"100%",width:"100%",display:"block",marginBottom:"20px",marginTop:"55px"}} src={Sunrise}/>
+        {/* <Hero  path={Sunrise} height='80vh' description='meditation in sunrise' /> */}
         </div>
         <Container style={{fontFamily:"sans-serif", fontSize:"20px"}}>
         <h1 className="text-center" style={{marginTop: "25px",marginBottom:"20px", color:"#1766CE"}}><b>About the class</b></h1>
