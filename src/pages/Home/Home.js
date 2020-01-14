@@ -13,6 +13,7 @@ class Home extends React.Component {
     trackFbClick(){
         var fbq = fbq || (() => {}); 
          fbq('trackCustom', 'sfClick')
+         console.log("yey")
     }
     render() {
         return (
