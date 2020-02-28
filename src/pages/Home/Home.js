@@ -10,10 +10,10 @@ import UCB from "../../images/UCB.jpg";
 
 
 class Home extends React.Component {
-    trackFbClick(){
-        var fbq = fbq || (() => {}); 
-         fbq('trackCustom', 'sfClick')
-         console.log("yey")
+    trackFbClick() {
+        var fbq = fbq || (() => { });
+        fbq('trackCustom', 'sfClick')
+        console.log("yey")
     }
     render() {
         return (
@@ -29,52 +29,55 @@ class Home extends React.Component {
                 <Container style={{ fontFamily: "sans-serif" }}>
 
                     <Row>
-                        
+                        <Col size="md-6">
+                            <div className="image-location">
+                                <h3 className="text-center location" style={{ marginBottom: "10px", marginTop: "50px", fontFamily: "sans-serif" }}> UC Berkeley </h3>
+                                <img className="img-fluid img-home" src={UCB} alt="UC Berkeley campaus" />
+                                <div className="text-center class-time-loc">
+                                    {/* <p style={{ marginTop: "25px", color: "#1766CE" }}><b>TBD</b></p> */}
+                                    <br />
+                                    <p><b>Tuesdays @ 6:30 PM, </b><u>124 Wheeler Hall</u></p>
+
+                                    <br />
+                                    <a href="https://www.meetup.com/Free-Meditation-Class-at-Cal/events/269046596/?_xtd=gqFyqTIyNTcwNDA2OaFwp2FuZHJvaWQ&from=ref" target="blank">
+                                    <button className="brk-btn" style={{ backgroundColor: "#2BA500", padding: "10px", color: "white", cursor: "pointer" }} href="/" target="blank">
+                                        Free RSVP
+                                    </button>
+                                    </a>
+                                </div>
+
+                            </div>
+                        </Col>
+
                         <Col size="md-6">
                             <div className="image-location">
                                 <h3 className="text-center location" style={{ marginTop: "50px", fontFamily: "sans-serif" }}>San Francisco</h3>
                                 <img className="img-fluid img-home" src={sf} alt="wework work space" />
                                 <div className="text-center class-time-loc">
-                                    <p style={{ marginTop: "25px", color: "#1766CE" }}><b>2 locations</b></p>
-                                    <p><b>Tuesdays @ 6 PM, </b><u>MindSpace 575 Market St.</u></p>
-                                    {/* <p><u>MindSpace 575 Market St.</u></p> */}
+                                    {/* <p style={{ marginTop: "25px", color: "#1766CE" }}><b>2 locations</b></p> */}
+                                    {/* <p><b>Tuesdays @ 6 PM, </b><u>MindSpace 575 Market St.</u></p> */}
+                                    <br />
                                     <p><b>Wednesdays @ 5:15 PM, </b><u>WeWork 535 Mission St.</u></p>
-                                    <br/>
-                                    {/* <p><u>WeWork 535 Mission St.</u></p> */}
+                                    <br />
                                     <a href="https://www.meetup.com/Free-Meditation-Class-for-Professionals-Downtown-SF/events/" target="blank">
-                                        <button className="sf-btn" style={{ backgroundColor: "#2BA500", padding: "10px", color: "white", cursor: "pointer" }} onClick={() => {this.trackFbClick()}}>
-                                        Free RSVP
+                                        <button className="sf-btn" style={{ backgroundColor: "#2BA500", padding: "10px", color: "white", cursor: "pointer" }} onClick={() => { this.trackFbClick() }}>
+                                            Free RSVP
                                         </button>
                                     </a>
                                 </div>
 
                             </div>
                         </Col>
-                        <Col size="md-6">
-                            <div className="image-location">
-                                <h3 className="text-center location" style={{ marginBottom: "10px", marginTop: "50px", fontFamily: "sans-serif" }}> UC Berkeley </h3>
-                                <img className="img-fluid img-home" src={UCB} alt="UC Berkeley campaus" />
-                                <div className="text-center class-time-loc">
-                                    <p style={{ marginTop: "25px", color: "#1766CE" }}><b>TBD</b></p>
-                                    <p>New on-campus location and time </p>
-                                    <p>TBD early February 2020</p>
-                                    <br/>
-                                    <button className="brk-btn" style={{ backgroundColor: "grey", padding: "10px", color: "white" }} href="/" target="blank">
-                                        Returning Soon
-                                    </button>
-                                </div>
 
-                            </div>
-                        </Col>
                     </Row>
 
                 </Container>
-                <div className="text-center" style={{ padding: "100px",backgroundColor: "#1766CE", color: "white", fontFamily: "sans-serif" }}>
+                <div className="text-center" style={{ padding: "100px", backgroundColor: "#1766CE", color: "white", fontFamily: "sans-serif" }}>
                     <h1 className="welcome"><b>All Are Welcome</b></h1>
                     {/* <hr style={{ width: "50%", borderTop: "1px solid white" }} /> */}
                     <div className="welcome-txt">
-                    <p>Beginners and experienced meditation practioners alike.</p>
-                    <p>Religious and non-religious. People from all walks of life who want to learn to connect with their "True Self" through meditation and minfulness. </p>
+                        <p>Beginners and experienced meditation practioners alike.</p>
+                        <p>Religious and non-religious. People from all walks of life who want to learn to connect with their "True Self" through meditation and minfulness. </p>
                     </div>
                 </div>
             </div>
