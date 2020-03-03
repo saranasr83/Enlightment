@@ -39,7 +39,7 @@ class Home extends React.Component {
                                     <p><b>Tuesdays @ 6:30 PM, </b><u>124 Wheeler Hall</u></p>
 
                                     <br />
-                                    <a href="https://www.meetup.com/Free-Meditation-Class-at-Cal/events/269046596/?_xtd=gqFyqTIyNTcwNDA2OaFwp2FuZHJvaWQ&from=ref" target="blank">
+                                    <a href="https://www.meetup.com/Free-Meditation-Class-at-Cal/events/" target="blank">
                                     <button className="brk-btn" style={{ backgroundColor: "#2BA500", padding: "10px", color: "white", cursor: "pointer" }} href="/" target="blank">
                                         Free RSVP
                                     </button>
