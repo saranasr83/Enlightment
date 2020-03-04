@@ -42,11 +42,11 @@ const Navbar = props => (
                                         </li>
                                         <li onClick={handleExpandChange}
                                             className={
-                                                window.location.pathname === "#/about"
+                                                window.location.pathname === "/about"
                                                     ? "nav-item active"
                                                     : "nav-item"
                                             }>
-                                            <Link className="nav-link" to="#/about">
+                                            <Link className="nav-link" to="/about">
                                             About the Teacher
                                             </Link>
                                         </li>
