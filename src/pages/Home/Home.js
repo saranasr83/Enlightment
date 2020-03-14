@@ -36,8 +36,8 @@ class Home extends React.Component {
                                 <div className="text-center class-time-loc">
                                     {/* <p style={{ marginTop: "25px", color: "#1766CE" }}><b>TBD</b></p> */}
                                     <br />
-                                    <p><b>Tuesdays @ 6:30 PM, </b><u>124 Wheeler Hall</u></p>
-
+                                    <p>In person: <b>Tuesdays @ 6:30 PM, </b><u>124 Wheeler Hall</u></p>
+                                    <p> For webinar details, email:<p style={{color:"#1766CE"}} >chitananda@sfawakenedmind.org</p></p>
                                     <br />
                                     <a href="https://www.meetup.com/Free-Meditation-Class-at-Cal/events/" target="blank">
                                     <button className="brk-btn" style={{ backgroundColor: "#2BA500", padding: "10px", color: "white", cursor: "pointer" }} href="/" target="blank">
@@ -57,7 +57,8 @@ class Home extends React.Component {
                                     {/* <p style={{ marginTop: "25px", color: "#1766CE" }}><b>2 locations</b></p> */}
                                     {/* <p><b>Tuesdays @ 6 PM, </b><u>MindSpace 575 Market St.</u></p> */}
                                     <br />
-                                    <p><b>Wednesdays @ 5:15 PM, </b><u>WeWork 535 Mission St.</u></p>
+                                    <p>In person is temporarily unavailable.</p>
+                                    <p> For webinar details, email: <p style={{color:"#1766CE"}}>chitananda@sfawakenedmind.org</p></p>
                                     <br />
                                     <a href="https://www.meetup.com/Free-Meditation-Class-for-Professionals-Downtown-SF/events/" target="blank">
                                         <button className="sf-btn" style={{ backgroundColor: "#2BA500", padding: "10px", color: "white", cursor: "pointer" }} onClick={() => { this.trackFbClick() }}>
