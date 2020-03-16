@@ -36,8 +36,9 @@ class Home extends React.Component {
                                 <div className="text-center class-time-loc">
                                     {/* <p style={{ marginTop: "25px", color: "#1766CE" }}><b>TBD</b></p> */}
                                     <br />
-                                    <p>In person: <b>Tuesdays @ 6:30 PM, </b><u>124 Wheeler Hall</u></p>
-                                    <p> For webinar details, email:<p style={{color:"#1766CE"}} >chitananda@sfawakenedmind.org</p></p>
+                                    {/* <p>In person: <b>Tuesdays @ 6:30 PM, </b><u>124 Wheeler Hall</u></p> */}
+                                    <p>In person is temporarily unavailable. </p>
+                                    <p> For webinar details, go to the event page <a href="https://www.meetup.com/Free-Meditation-Class-at-Cal/events/" target="blank" style={{color:"#1766CE"}}>here</a></p>
                                     <br />
                                     <a href="https://www.meetup.com/Free-Meditation-Class-at-Cal/events/" target="blank">
                                     <button className="brk-btn" style={{ backgroundColor: "#2BA500", padding: "10px", color: "white", cursor: "pointer" }} href="/" target="blank">
@@ -52,13 +53,13 @@ class Home extends React.Component {
                         <Col size="md-6">
                             <div className="image-location">
                                 <h3 className="text-center location" style={{ marginTop: "50px", fontFamily: "sans-serif" }}>San Francisco</h3>
-                                <img className="img-fluid img-home" src={sf} alt="wework work space" />
+                                <img className="img-fluid img-home" src={sf} alt="SF city" />
                                 <div className="text-center class-time-loc">
                                     {/* <p style={{ marginTop: "25px", color: "#1766CE" }}><b>2 locations</b></p> */}
                                     {/* <p><b>Tuesdays @ 6 PM, </b><u>MindSpace 575 Market St.</u></p> */}
                                     <br />
                                     <p>In person is temporarily unavailable.</p>
-                                    <p> For webinar details, email: <p style={{color:"#1766CE"}}>chitananda@sfawakenedmind.org</p></p>
+                                    <p> For webinar details, go to the event page <a href="https://www.meetup.com/Free-Meditation-Class-for-Professionals-Downtown-SF/events/" target="blank" style={{color:"#1766CE"}}>here</a></p>
                                     <br />
                                     <a href="https://www.meetup.com/Free-Meditation-Class-for-Professionals-Downtown-SF/events/" target="blank">
                                         <button className="sf-btn" style={{ backgroundColor: "#2BA500", padding: "10px", color: "white", cursor: "pointer" }} onClick={() => { this.trackFbClick() }}>
