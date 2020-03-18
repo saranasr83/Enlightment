@@ -40,7 +40,7 @@ class Home extends React.Component {
                                     <p>In person is temporarily unavailable. </p>
                                     <p> For webinar details, go to the event page <a href="https://www.meetup.com/Free-Meditation-Class-at-Cal/events/" target="blank" style={{color:"#1766CE"}}>here</a></p>
                                     <br />
-                                    <a href="https://www.meetup.com/Free-Meditation-Class-at-Cal/events/" target="blank">
+                                    <a href="https://www.meetup.com/Free-Meditation-Class-at-Cal/events/" target="_blank">
                                     <button className="brk-btn" style={{ backgroundColor: "#2BA500", padding: "10px", color: "white", cursor: "pointer" }} href="/" target="blank">
                                         Free RSVP
                                     </button>
@@ -61,7 +61,7 @@ class Home extends React.Component {
                                     <p>In person is temporarily unavailable.</p>
                                     <p> For webinar details, go to the event page <a href="https://www.meetup.com/Free-Meditation-Class-for-Professionals-Downtown-SF/events/" target="blank" style={{color:"#1766CE"}}>here</a></p>
                                     <br />
-                                    <a href="https://www.meetup.com/Free-Meditation-Class-for-Professionals-Downtown-SF/events/" target="blank">
+                                    <a href="https://www.meetup.com/Free-Meditation-Class-for-Professionals-Downtown-SF/events/" target="_blank">
                                         <button className="sf-btn" style={{ backgroundColor: "#2BA500", padding: "10px", color: "white", cursor: "pointer" }} onClick={() => { this.trackFbClick() }}>
                                             Free RSVP
                                         </button>
